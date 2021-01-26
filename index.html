@@ -10,55 +10,57 @@
 </head>
 <body>
     <div class="container">
-        <table>
-            <thead>
+        <form id="form">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="background-color:#FD8989;">ID</th>
+                        <th style="background-color: #86DC94;">Katılımcı İsmi</th>
+                        <th style="background-color: #8F96D0;">Tiyatroya Gelecek mi?</th>
+                        <th style="background-color: #D0DB8A;">Sıra Numarası</th>
+                    </tr>
+                </thead>
+                <tbody>
                 <tr>
-                    <th style="background-color:#FD8989;">ID</th>
-                    <th style="background-color: #86DC94;">Katılımcı İsmi</th>
-                    <th style="background-color: #8F96D0;">Tiyatroya Gelecek mi?</th>
-                    <th style="background-color: #D0DB8A;">Sıra Numarası</th>
-                </tr>
-            </thead>
-            <tbody>
-               <tr>
-                    <td id="idNumber">1</td>
-                    <td>Seçil Azrak</td>
-                    <td><input type="checkbox" id="check"></td>
-                    <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
-                </tr>
-                <tr>
-                    <td id="idNumber">2</td>
-                    <td>İbrahim Doğualp</td>
-                    <td><input type="checkbox" id="check"></td>
-                    <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
-                </tr>
-                <tr>
-                    <td id="idNumber">3</td>
-                    <td>Timuçin Kaval</td>
-                    <td><input type="checkbox" id="check"></td>
-                    <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
-                </tr>
-                <tr>
-                    <td id="idNumber">4</td>
-                    <td>Zelal Karem</td>
-                    <td><input type="checkbox" id="check"></td>
-                    <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
-                </tr>
-                <tr>
-                    <td id="idNumber">5</td>
-                    <td>Barkın Acar</td>
-                    <td><input type="checkbox" id="check"></td>
-                    <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">
-                        <button type="submit" id="save">Sırayı Kaydet</button>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
+                        <td id="idNumber">1</td>
+                        <td>Seçil Azrak</td>
+                        <td><input type="checkbox" id="check" ></td>
+                        <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
+                    </tr>
+                    <tr>
+                        <td id="idNumber">2</td>
+                        <td>İbrahim Doğualp</td>
+                        <td><input type="checkbox" id="check"></td>
+                        <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
+                    </tr>
+                    <tr>
+                        <td id="idNumber">3</td>
+                        <td>Timuçin Kaval</td>
+                        <td><input type="checkbox" id="check"></td>
+                        <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
+                    </tr>
+                    <tr>
+                        <td id="idNumber">4</td>
+                        <td>Zelal Karem</td>
+                        <td><input type="checkbox" id="check"></td>
+                        <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
+                    </tr>
+                    <tr>
+                        <td id="idNumber">5</td>
+                        <td>Barkın Acar</td>
+                        <td><input type="checkbox" id="check"></td>
+                        <td><input type="text" id="number" disabled="disabled" placeholder="Numara Girilemez..."></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <button type="button" id="save">Sırayı Kaydet</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
     </div>
     <script src="app.js"></script>
 </body>
